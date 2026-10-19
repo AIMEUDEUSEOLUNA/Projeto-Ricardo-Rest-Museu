@@ -1,0 +1,25 @@
+{
+  "name": "rest",
+  "version": "1.0.0",
+  "description": "API REST em Node.js",
+  "keywords": [
+    "express",
+    "rest",
+    "node"
+  ],
+  "license": "MIT",
+  "author": "Joao",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "mysql2": "^3.24.4"
+  }
+}
